@@ -1,0 +1,109 @@
+/*Componentes Base*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section .container-home .container-titulo-des-home .titulo-home {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+section .container-home .container-titulo-des-home .description-home {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+section .container-noticias .container-titulo-noticias .titulo-noticias {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+}
+
+section .container-noticias .container-cards-noticias .card {
+  width: 252px;
+  height: 400px;
+  border: 0.5px solid black;
+  border-radius: 10px;
+  margin: 10px;
+}
+section .container-noticias .container-cards-noticias .card .container-imagen-card {
+  width: 250px;
+  height: 200px;
+}
+section .container-noticias .container-cards-noticias .card .container-imagen-card .imagen-card {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+}
+section .container-noticias .container-cards-noticias .card .container-titulo-card {
+  margin: 10px;
+}
+section .container-noticias .container-cards-noticias .card .container-titulo-card .titulo-card {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+section .container-noticias .container-cards-noticias .card .container-titulo-card .descripcion-card {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  color: black;
+}
+
+/*Componentes Web*/
+section .container-home {
+  height: 600px;
+  background-image: url(../../images/fortnite-bg.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+section .container-home .container-titulo-des-home {
+  margin-top: 120px;
+  padding: 30px;
+  width: 500px;
+  height: 300px;
+  border-radius: 15px;
+  background-color: black;
+  opacity: 0.75;
+}
+section .container-home .container-titulo-des-home .titulo-home {
+  opacity: 1;
+}
+section .container-home .container-titulo-des-home .description-home {
+  opacity: 1;
+}
+
+section .container-noticias {
+  /*Flexbox*/
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f8f9fa;
+}
+section .container-noticias .container-titulo-noticias {
+  /*Box Model*/
+  padding: 30px;
+}
+section .container-noticias .container-cards-noticias {
+  /*Flexbox*/
+  display: flex;
+  justify-content: center;
+  /*Box Model*/
+  padding: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

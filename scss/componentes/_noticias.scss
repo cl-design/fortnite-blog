@@ -1,0 +1,29 @@
+section{
+    .container-noticias{
+        /*Flexbox*/
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #f8f9fa;
+        .container-titulo-noticias{
+            /*Box Model*/
+            padding: 30px;
+            .titulo-noticias{
+                @extend %titulo-2;
+            }
+            
+        }
+
+        .container-cards-noticias{
+            /*Flexbox*/
+            display: flex;
+            justify-content: center;
+            /*Box Model*/
+            padding: 20px;
+
+            .card{
+                @extend %card;
+            }
+        }
+    }
+}

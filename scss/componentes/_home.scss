@@ -1,0 +1,31 @@
+section{
+    .container-home{
+        height: 600px;
+        background-image: url(../../images/fortnite-bg.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+
+        .container-titulo-des-home{
+            margin-top: 120px;
+            padding: 30px;
+            width: 500px;
+            height: 300px;
+            border-radius: 15px;
+            background-color: black;
+            opacity: 0.75;
+
+
+            .titulo-home{
+                @extend %titulo-1;
+                opacity: 1.0;
+            }
+    
+            .description-home{
+                @extend %description-1;
+                opacity: 1.0;
+                
+            }
+        }
+    }
+}

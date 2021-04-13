@@ -1,0 +1,74 @@
+%titulo-1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+%description-1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding: 20px;
+    text-align:center;
+}
+
+%description-2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 20px;
+    text-align:center;
+}
+
+%titulo-2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+%card{
+    width: 252px;
+    height: 400px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    margin: 10px;
+
+    .container-imagen-card{
+        width: 250px;
+        height: 200px;
+
+        .imagen-card{
+            width: 250px;
+            height: 200px;
+            border-radius: 10px;
+        }
+    }
+
+    .container-titulo-card{
+
+        margin: 10px;
+
+        .titulo-card{
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            color: black;
+        }
+
+        .descripcion-card{
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            text-align: center;
+            text-transform: capitalize;
+            color: black;
+        }
+    }
+}
