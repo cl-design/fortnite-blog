@@ -63,6 +63,15 @@ section .container-noticias .container-cards-noticias .card .container-titulo-ca
   color: black;
 }
 
+section .container-eventos .container-cards-eventos .container-cards-inferior .card-evento, section .container-eventos .container-cards-eventos .container-cards-superior .card-evento {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
 /*Componentes Web*/
 section .container-home {
   height: 600px;
@@ -104,6 +113,32 @@ section .container-noticias .container-cards-noticias {
   justify-content: center;
   /*Box Model*/
   padding: 20px;
+}
+section .container-eventos {
+  /*Flexbox*/
+  display: flex;
+  background-color: #f8f9fa;
+}
+section .container-eventos .container-texto-eventos {
+  /*Box Model*/
+  padding: 50px;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+section .container-eventos .container-cards-eventos {
+  /*Boxmodel*/
+  padding: 40px;
+  margin-right: 30px;
+}
+section .container-eventos .container-cards-eventos .container-cards-superior {
+  /*Flexbox*/
+  display: flex;
+  justify-content: space-between;
+}
+section .container-eventos .container-cards-eventos .container-cards-inferior {
+  /*Flexbox*/
+  display: flex;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */

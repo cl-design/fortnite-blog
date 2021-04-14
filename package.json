@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cl-design/fortnite-blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cl-design/fortnite-blog/issues"
+  },
+  "homepage": "https://github.com/cl-design/fortnite-blog#readme",
   "description": ""
 }

@@ -1,0 +1,43 @@
+section{
+
+    .container-eventos{
+
+        /*Flexbox*/
+        display: flex;
+        background-color: #f8f9fa;
+        .container-texto-eventos{
+            /*Box Model*/
+            padding: 50px;
+            margin-top: 25px;
+            margin-left: 30px;
+        }
+
+        .container-cards-eventos{
+            /*Boxmodel*/
+            padding: 40px;
+            margin-right: 30px;
+            .container-cards-superior{
+                /*Flexbox*/
+                display: flex;
+                justify-content: space-between;
+
+                .card-evento{
+                    @extend %card-2;
+                }
+            }
+
+            .container-cards-inferior{
+                /*Flexbox*/
+                display: flex;
+                justify-content: space-between;
+
+                .card-evento{
+                    @extend %card-2;
+                }
+            }
+
+        }
+
+    }
+
+}
